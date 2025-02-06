@@ -5,9 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_a04e.mk
+    $(LOCAL_DIR)/lineage_a03s.mk
 
 COMMON_LUNCH_CHOICES := \
-    lineage_a04e-user \
-    lineage_a04e-userdebug \
-    lineage_a04e-eng
+    lineage_a03s-user \
+    lineage_a03s-userdebug \
+    lineage_a03s-eng
