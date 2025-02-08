@@ -22,3 +22,9 @@ $(call inherit-product, device/samsung/mt6765-jdm/mt6765.mk)
 # Kernel Modules
 PRODUCT_COPY_FILES += \
     $(call find-copy-subdir-files,*,$(DEVICE_PATH)/vendor_overlay/,$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/31/)
+
+# Bluetooth Props
+PRODUCT_SYSTEM_PROPERTIES += \
+    persist.sys.bt.unsupport.features=00000000 \
+    persist.sys.bt.unsupport.states=00000000 \
+    persist.sys.bt.unsupport.stdfeatures=000001
