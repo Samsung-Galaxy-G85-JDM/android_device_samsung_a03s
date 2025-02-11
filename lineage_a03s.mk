@@ -15,7 +15,7 @@ $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 $(call inherit-product, device/samsung/a03s/device.mk)
 
 # Inherit from hq-camera-samsung
-$(call inherit-product, vendor/samsung/hq-camera/hqcamera-samsung-hs03s.mk)
+$(call inherit-product, vendor/samsung/hq-camera/hqcamera-samsung-hs04.mk)
 
 TARGET_EXCLUDES_AUDIOFX := true
 
