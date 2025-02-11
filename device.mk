@@ -27,4 +27,4 @@ PRODUCT_COPY_FILES += \
 PRODUCT_SYSTEM_PROPERTIES += \
     persist.sys.bt.unsupport.features=00000000 \
     persist.sys.bt.unsupport.states=00000000 \
-    persist.sys.bt.unsupport.stdfeatures=000001
+    persist.sys.bt.unsupport.stdfeatures=00000000
