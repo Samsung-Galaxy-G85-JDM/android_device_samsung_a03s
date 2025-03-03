@@ -5,9 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/infinity_a03s.mk
+    $(LOCAL_DIR)/superior_a03s.mk
 
 COMMON_LUNCH_CHOICES := \
-    infinity_a03s-user \
-    infinity_a03s-userdebug \
-    infinity_a03s-eng
+    superior_a03s-user \
+    superior_a03s-userdebug \
+    superior_a03s-eng
