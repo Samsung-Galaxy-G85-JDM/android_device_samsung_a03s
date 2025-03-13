@@ -5,9 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/aosp_a03s.mk
+    $(LOCAL_DIR)/alpha_a03s.mk
 
 COMMON_LUNCH_CHOICES := \
-    aosp_a03s-user \
-    aosp_a03s-userdebug \
-    aosp_a03s-eng
+    alpha_a03s-user \
+    alpha_a03s-userdebug \
+    alpha_a03s-eng
